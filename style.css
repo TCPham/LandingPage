@@ -1,12 +1,16 @@
-.container {
-    background-color: #1F2937;
-    padding: 20px;
+body {
+    margin: auto;
 }
 
-.top {
+.container-1 {
+    background-color: #1F2937;
+}
+
+.navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 100px 50px 100px;
 }
 
 .logo {
@@ -21,48 +25,112 @@
     color: #E5E7EB;
 }
 
-.bottom {
+.hero {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px 100px 100px;
+    gap: 40px;
 }
 
-.hero {
+.hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.text {
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.info {
-    background-color: white;
-}
-
-.quote {
-    background-color: #E5E7EB;
-}
-
-.footer {
-    background-color: #1F2937;
-    color: white;
-}
-
-.button {
+.button1 {
     background-color: #3882F6;
     color: white;
-    border-radius: 4px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    border: none;
 }
 
-.alt-text {
-    height: 100px;
-    width: 400px;
-    background-color: lightgray;
+.img-main {
+    height: 200px;
+    width: 600px;
+    background-color: darkgray;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.container-2 {
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 40px;
+}
+
+.img-secondary {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.caption {
+    font-size: 36px;
+    text-align: end;
+}
+
+.container-4 {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 20px 0px;
+    border-radius: 8px;
+    color: white;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.container-5 {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
