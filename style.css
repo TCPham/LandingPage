@@ -3,7 +3,7 @@ body {
 }
 
 .container-1 {
-    background-color: #1F2937;
+    background-color: #f9cb9c;
 }
 
 .navbar {
@@ -15,14 +15,14 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: black;
 }
 
 .links {
     display: flex;
     gap: 20px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: black;
 }
 
 .hero {
@@ -35,17 +35,17 @@ body {
 .hero-main {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
+    color: black;
 }
 
 .hero-secondary {
     font-size: 18px;
-    color: #E5E7EB;
+    color: black;
 }
 
 .button1 {
     background-color: #3882F6;
-    color: white;
+    color: black;
     border-radius: 8px;
     padding: 10px 40px;
     border: none;
@@ -55,7 +55,7 @@ body {
     height: 200px;
     width: 600px;
     background-color: darkgray;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    color: black;
 }
 
 .cards {
@@ -85,7 +85,7 @@ body {
     height: 150px;
     width: 150px;
     border-style: solid;
-    border-color: blue;
+    border-color: #3882F6;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ body {
 }
 
 .container-3 {
-    background-color: #E5E7EB;
+    background-color: #f9e0c1;
     padding: 100px;
 }
 
@@ -109,19 +109,19 @@ body {
 }
 
 .container-4 {
-    background-color: #3882F6;
+    background-color: #f9cb9c;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 100px 200px;
     padding: 20px 0px;
     border-radius: 8px;
-    color: white;
+    color: black;
 }
 
 .button2 {
     background-color: #3882F6;
-    color: white;
+    color: black;
     padding: 10px 40px;
     border-radius: 8px;
     border-style: solid;
@@ -129,8 +129,8 @@ body {
 }
 
 .container-5 {
-    background-color: #1F2937;
-    color: white;
+    background-color: #f9e0c1;
+    color: black;
     text-align: center;
     padding: 40px;
 }

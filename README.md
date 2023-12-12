@@ -1,1 +1,1 @@
-# landingPage
+# A Landing Page created with the purpose of showcasing the dog breed Corgis.
